@@ -1,0 +1,342 @@
+#pokeNombre{
+	width: 100px;
+	border-style: none;
+	font-size: 20px;
+	font-weight: bold; 
+	font-family: arial;
+	position: absolute;
+	left: 480px;
+	top: 403px;
+	background-color:#F1F2D3;
+}
+#pokeNombre{
+	text-transform: lowercase;
+		display: flex;
+		font-family: 'Quantico', sans-serif;
+}
+
+#pokeNombre:first-letter {
+	display: inline-block;
+    text-transform: uppercase;
+}
+#pokeOrder{
+	width: 35px;
+	border-style: none;
+	font-size: 20px;
+	font-weight: bold; 
+	font-family: arial;
+	position: absolute;
+	left: 370px;
+	top: 236px;
+	background-color:#F1F2D3;
+	z-index: 0;
+	text-align: right;
+}
+
+
+ul{
+	position: absolute;
+	width: 283px;
+	background-color: #31A7F1;
+	height: 200px;
+	overflow: scroll;
+	top: 342px;
+	left: 77px;
+	border-radius: 5px;
+	overflow-x: hidden;
+	box-shadow: -4px 5px 4px 1px #2165EC;
+	margin-top: 10px;
+
+}
+li{
+	font-size: 13px; 
+	font-family: consolas;
+	font-weight: bold;
+	position: relative;
+	width: 120px;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;
+	left: -20px;
+}
+li:first-letter {
+	display: inline-block;
+    text-transform: uppercase;
+}
+#pokeImg{
+	background-color: #F1F2D3;
+	position: absolute;
+	left: 440px;
+	top: 230px;
+	display: block;
+}
+#botones{
+	position: absolute;
+	right: 200px;
+	top: 10px;
+	width: 500px;
+}
+#ocultar{
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	border-radius: 20px;
+	padding: 3px 22px;
+}
+#ocultar1{
+	position: absolute;
+	right: 280px;
+	top: 400px;
+	z-index: 1;
+}
+#ocultar1:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+#mostrar{
+	text-decoration: none;
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+	padding: 3px 20px;
+}
+#mostrar1{
+	position: absolute;
+	right: 100px;
+	top: 400px;
+}
+#mostrar1:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+#moves{
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	width: 10px;
+}
+#fondopokedex{
+	width: 65%;
+	position: absolute;
+	top:10px;
+	left: 280px;
+	z-index: -1;
+}
+#pokeName{
+	position: absolute;
+	left: 385px;
+	top: 648px;
+	background-color: #55AB62;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+	text-align: center;
+	font-family: consolas;
+}
+#pokeName1{
+	font-size: 15px;
+	font-weight: bold;
+	position: absolute;
+	left: 372px;
+	top: 618px;
+	font-family: consolas;
+	background-color: #489153;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+#buscar{
+	border-radius: 50%;
+	padding: 20px 10px;
+	position: absolute;
+	top: 523px;
+	left: 330px;
+	color: white;
+	background-color: #222222;
+	z-index: 1;
+	font-family: consolas;
+	font-weight: bold;
+}
+#crlob{
+	background-color: black;
+	position: absolute;
+	top: 523px;
+	left: 330px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+h3{
+	position: absolute;
+	top: 300px;
+	left: 170px;
+	font-family: consolas;
+
+}
+
+ul::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+ul::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+ul::-webkit-scrollbar-thumb {
+  background: #00588f;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+ul::-webkit-scrollbar-thumb:hover {
+  background: #170A80;
+}
+ul::-webkit-scrollbar-thumb:active {
+  background: #31a7f1;
+}
+ul::-webkit-scrollbar-track {
+  background: #2165ec;
+  border: 1px solid #000000;
+  border-radius: 56px;
+}
+ul::-webkit-scrollbar-track:hover {
+  background: #2165ec;
+}
+ul::-webkit-scrollbar-track:active {
+  background: #2165ec;
+}
+ul::-webkit-scrollbar-corner {
+  background: transparent;
+}
+#est1{
+	position: absolute;
+	right: 618px;
+	color: yellow;
+	font-family: consolas;
+	top:330px;
+	font-weight: bold;
+}
+#est2{
+	position: absolute;
+	right: 565px;
+	color: yellow;
+	font-family: consolas;
+	top:330px;
+	font-weight: bold;
+}
+#est3{
+	position: absolute;
+	right: 510px;
+	color: yellow;
+	font-family: consolas;
+	top:330px;
+	font-weight: bold;
+}
+#est4{
+	position: absolute;
+	right: 450px;
+	font-size: 12px;
+	color: yellow;
+	font-family: consolas;
+	top:337px;
+	font-weight: bold;
+}
+#est5{
+	position: absolute;
+	right: 396px;
+	font-size: 12px;
+	color: yellow;
+	font-family: consolas;
+	top:337px;
+	font-weight: bold;
+}
+#est6{
+	position: absolute;
+	right: 340px;
+	color: yellow;
+	font-family: consolas;
+	top:330px;
+	font-weight: bold;
+}
+#stat1{
+	position: absolute;
+	top: -30px;
+	right: -2px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+}
+#stat2{
+	position: absolute;
+	top: -30px;
+	right: 2px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+}
+#stat3{
+	position: absolute;
+	top: -30px;
+	right: 3px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+}
+#stat4{
+	position: absolute;
+	top: -33px;
+	right: 10px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+}
+#stat5{
+	position: absolute;
+	top: -33px;
+	right: 10px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#stat6{
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+}
+#poketip{
+	position: absolute;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 18px;
+	position: absolute;
+	top: 250px;
+	right: 600px;
+}
+#pokeTipo1{
+	position: absolute;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 18px;
+	left: 55px;
+
+}
+
+#pokeTipo2{
+	position: absolute;
+	color: yellow;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 18px;
+	right: 475px;
+	top: 269px;
+}

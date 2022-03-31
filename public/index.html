@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Pokedex LaunchX</title>
+	 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+	<!--fuentes-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--Input para el nombre e imagen-->
+	<h1></h1><br>
+	<label id="pokeName1" for="pokeName">Buscar por nombre o ID</label><br>
+	<input type="text" name="pokeName" placeholder="Pikachu" id="pokeName"><br>
+	<img id="pokeImg" src="img/pokeball.png" alt="" width="180px"><br>
+	<button id="buscar" onclick="fetchPokemon()">Buscar</button><br>
+	<div id="crlob"></div>
+
+<!--Datos y tipo de pokemon-->
+	<span id="pokeNombre"></span>
+	<span id="pokeOrder"></span>
+	<p id="poketip">Tipo: <span id="pokeTipo1"></span></p>
+	<span id="pokeTipo2"></span>
+
+<!--lista de estadisticas-->
+	
+	<p id="est1" >HP <span id="stat1"></span></p>
+	<p id="est2">ATK <span id="stat2"></span></p>
+	<p id="est3">DEF<span id="stat3"></span></p>
+	<p id="est4">SP.ATK <span id="stat4"></span></p>
+	<p id="est5">SP.DEF <span id="stat5"></span></p>
+	<p id="est6">SPEED <span id="stat6"></span></p>
+
+<!--lista de movimientos-->
+	<div id="moves">
+    	<h3>Movimientos</h3>
+    	<ul class="list-group list-group-flush">
+    	</ul>
+    	</div>
+    	
+	</div>
+<!--boton mostrar
+	<div id="botones">
+	<div id="ocultar1">
+	<a id="ocultar" href="javascript:document.getElementById('moves').style.display='none';void 0">Ocultar movimientos</a></div>
+	<div id="mostrar1">
+  	 <a id="mostrar" href="javascript:document.getElementById('moves').style.display='block';void 0">Mostrar movimientos</a></div>
+	</div>
+	</div>-->
+
+<!--fondo pokedex-->
+<img id="fondopokedex"src="img/pokedex.jpg">
+
+
+</body>
+<footer>
+	<script type="text/javascript" src="pokedex.js"></script>
+</footer>
+</html>
